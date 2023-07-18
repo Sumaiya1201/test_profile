@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Sumaiya Hossain's Portfolio</h1>
+    </div>
+
+    <nav class="section" id="navbar">
+
+        <a href="/index.html">home</a> / <a href="/blog.html">blog</a> / <a href="">projects</a> / <a href="">contact</a> 
+
+
+    </nav>
+
+    <div class="flex">
+        <img src="/25 dec.jpg" id="selfie">
+
+        <div class="section objective">
+            <h2>Objective</h2>
+            <p> Myself Sumaiya Hossain, a first year B.tech student.
+                I'm polishing my skills as a front end web developer and
+                looking forward to serve as an intern in a start up or established company.</p>
+        </div>
+    </div>
+    <div class="section bg-pink">
+        <h2>Education</h2>
+        <p>B.Tech(CSE)(pursuing) - 98% in higher secondary</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu sem non sapien pulvinar ornare a quis eros. Praesent tincidunt, dui vel blandit ultrices, ante justo euismod turpis, a euismod nunc dui vitae metus. Cras ut nulla non mi ultricies rhoncus sagittis vel nibh. Praesent faucibus, sem ut maximus gravida, metus sapien volutpat augue, quis hendrerit augue leo nec ipsum. Donec vehicula tortor turpis, sed interdum dolor gravida vel. Proin imperdiet felis sed tortor ultricies</p>
+    </div>
+    <div class="section ">
+        <h2> Skills</h2>
+        <p>
+        <ul style="list-style-type:circle">
+            <li>css</li>
+            <li>bootstrap</li>
+            <li>video editing</li>
+            <li>graphic desgning</li>
+
+        </ul>
+        </p>
+    </div>
+    <div class="section links">
+        <a href="/contact.html">Contact Me</a>
+    </div>
+
+
+</body>
+<style>
+    body {
+        font-family: sans-serif;
+        max-width: 700px;
+        margin : 0 auto;
+        line-height: 1.5;
+
+    }
+    #navbar {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    #navbar a {
+        color: darkolivegreen;
+        text-decoration: none;
+    }
+    #selfie{
+        height: 200px;
+        flex-grow: 1;
+        border-radius: 10px;
+    }
+    .flex {
+        display: flex;
+        gap: 10px;
+    }
+    .section {
+        border: 1px solid white     ;
+        padding : 10px;
+        padding-top: 0;  
+        margin-top : 10px;
+        margin-bottom : 10px;
+        background-color: antiquewhite;
+        border-radius: 10px;
+
+    }
+    .bg-pink{
+        background-color: pink;
+    }
+
+    .links {
+        background-color: palegreen;
+    }
+
+    .heading {
+        text-align: center;
+        color: blueviolet;
+        font-size: larger;
+    }
+
+    .objective {
+        flex-grow: 3;
+        background-color: aquamarine;
+        margin-top: 0;
+    }
+
+    h2 {
+        color: brown;
+    }
+</style>
+
+</html>
